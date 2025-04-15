@@ -1,0 +1,193 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progetto AICA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .btn {
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+            .btn:hover {
+                background-color: #0069d9;
+            }
+
+        .floor-plan {
+            position: relative;
+            width: 700px;
+            height: 550px;
+            background-color: #fff;
+            border: 2px solid #444;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .room {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+        }
+
+            .room::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                border: 2px solid #444;
+                pointer-events: none;
+            }
+
+        .kitchen {
+            top: 20px;
+            left: 20px;
+            width: 280px;
+            height: 200px;
+            background-color: #FFF3E0;
+        }
+
+        .living-room {
+            top: 20px;
+            right: 20px;
+            width: 360px;
+            height: 200px;
+            background-color: #E1F5FE;
+        }
+
+        .bathroom {
+            bottom: 20px;
+            left: 20px;
+            width: 260px;
+            height: 180px;
+            background-color: #E8F5E9;
+        }
+
+        .bedroom {
+            bottom: 20px;
+            right: 20px;
+            width: 380px;
+            height: 180px;
+            background-color: #F3E5F5;
+        }
+
+        .corridor {
+            position: absolute;
+            left: 0;
+            top: 240px;
+            width: 100%;
+            height: 90px;
+            background-color: #f8f8f8;
+            border-top: 2px solid #666;
+            border-bottom: 2px solid #666;
+        }
+
+        .bottom-wall {
+            position: absolute;
+            left: 0;
+            bottom: 200px;
+            width: 100%;
+            height: 20px;
+            background-color: #fff;
+            border-top: 2px solid #444;
+            z-index: 5;
+        }
+
+        .light {
+            font-size: 28px;
+            cursor: pointer;
+            color: #ccc;
+            margin-top: 15px;
+            transition: all 0.3s ease;
+            z-index: 2;
+        }
+
+            .light.on {
+                color: #ffeb3b;
+                text-shadow: 0 0 15px #ffeb3b;
+                transform: scale(1.1);
+            }
+
+        .room-label {
+            font-weight: bold;
+            font-size: 16px;
+            margin-bottom: 10px;
+            text-align: center;
+            color: #333;
+            text-transform: uppercase;
+            z-index: 2;
+        }
+    </style>
+</head>
+
+@code{
+    protected override async Task OnInitializedAsync()
+    {
+        Services.PLCBackend.Connect(); 
+    }
+}
+<body>
+    <div class="floor-plan">
+        <!-- Cucina -->
+        <div class="room kitchen">
+            <div class="room-label">Cucina</div>
+            <i class="fas fa-lightbulb light" @onclick="Services.PLCBackend.lampadaCucina"></i>
+        </div>
+
+        <!-- Salotto -->
+        <div class="room living-room">
+            <div class="room-label">Salotto</div>
+            <i class="fas fa-lightbulb light" @onclick="Services.PLCBackend.lampadaSalotto"></i>
+        </div>
+
+        <!-- Bagno -->
+        <div class="room bathroom">
+            <div class="room-label">Bagno</div>
+            <i class="fas fa-lightbulb light" @onclick="Services.PLCBackend.lampadaBagno"></i>
+        </div>
+
+        <!-- Camera -->
+        <div class="room bedroom">
+            <div class="room-label">Camera</div>
+            <i class="fas fa-lightbulb light" @onclick="Services.PLCBackend.lampadaCamera"></i>
+        </div>
+
+        <!-- Corridoio -->
+        <div class="corridor"></div>
+
+        <!-- Muro aggiuntivo -->
+        <div class="bottom-wall"></div>
+    </div>
+
+    <script>
+        function toggleLight(element) {
+            element.classList.toggle('on');
+        }
+    </script>
+</body>
+
+</html>

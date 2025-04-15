@@ -1,0 +1,9 @@
+G:\Drive condivisi\Didattica 2024-2025\Classi\3IOT\HCL\HCL-WebApp\obj\Debug\net8.0\HCL.csproj.AssemblyReference.cache
+G:\Drive condivisi\Didattica 2024-2025\Classi\3IOT\HCL\HCL-WebApp\obj\Debug\net8.0\HCL.GeneratedMSBuildEditorConfig.editorconfig
+G:\Drive condivisi\Didattica 2024-2025\Classi\3IOT\HCL\HCL-WebApp\obj\Debug\net8.0\HCL.AssemblyInfoInputs.cache
+G:\Drive condivisi\Didattica 2024-2025\Classi\3IOT\HCL\HCL-WebApp\obj\Debug\net8.0\HCL.AssemblyInfo.cs
+G:\Drive condivisi\Didattica 2024-2025\Classi\3IOT\HCL\HCL-WebApp\obj\Debug\net8.0\HCL.csproj.CoreCompileInputs.cache
+G:\Drive condivisi\Didattica 2024-2025\Classi\3IOT\HCL\HCL-WebApp\obj\Debug\net8.0\HCL.MvcApplicationPartsAssemblyInfo.cache
+G:\Drive condivisi\Didattica 2024-2025\Classi\3IOT\HCL\HCL-WebApp\obj\Debug\net8.0\HCL.dll
+G:\Drive condivisi\Didattica 2024-2025\Classi\3IOT\HCL\HCL-WebApp\obj\Debug\net8.0\refint\HCL.dll
+G:\Drive condivisi\Didattica 2024-2025\Classi\3IOT\HCL\HCL-WebApp\obj\Debug\net8.0\HCL.pdb

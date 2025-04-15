@@ -1,0 +1,40 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/progetto-AICA/app.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hDMiMML3RkLNSDdzRDDCbl5BSgoDV5T2\u002Bm4JVhdgmug="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2125"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022hDMiMML3RkLNSDdzRDDCbl5BSgoDV5T2\u002Bm4JVhdgmug=\u0022"},{"Name":"Last-Modified","Value":"Mon, 14 Apr 2025 11:51:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/progetto-AICA/app.sw2b1e5w8n.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"sw2b1e5w8n"},{"Name":"integrity","Value":"sha256-hDMiMML3RkLNSDdzRDDCbl5BSgoDV5T2\u002Bm4JVhdgmug="},{"Name":"label","Value":"_content/progetto-AICA/app.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2125"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022hDMiMML3RkLNSDdzRDDCbl5BSgoDV5T2\u002Bm4JVhdgmug=\u0022"},{"Name":"Last-Modified","Value":"Mon, 14 Apr 2025 11:51:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/progetto-AICA/progetto-AICA.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\progetto-AICA.dy3efmnhlf.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hUKyQW\u002Bg2DQckXocAi8BQZ0bzJDWDQc5SE4YwejqX3s="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"504"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022hUKyQW\u002Bg2DQckXocAi8BQZ0bzJDWDQc5SE4YwejqX3s=\u0022"},{"Name":"Last-Modified","Value":"Mon, 14 Apr 2025 11:52:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/progetto-AICA/progetto-AICA.dy3efmnhlf.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\progetto-AICA.dy3efmnhlf.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dy3efmnhlf"},{"Name":"integrity","Value":"sha256-hUKyQW\u002Bg2DQckXocAi8BQZ0bzJDWDQc5SE4YwejqX3s="},{"Name":"label","Value":"_content/progetto-AICA/progetto-AICA.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"504"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022hUKyQW\u002Bg2DQckXocAi8BQZ0bzJDWDQc5SE4YwejqX3s=\u0022"},{"Name":"Last-Modified","Value":"Mon, 14 Apr 2025 11:52:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/progetto-AICA/Style.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Style.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Tu\u002Busb0zlLVUr7H9KyEZfbbDqAQldmwOyBP5ZOJ3i8A="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2041"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Tu\u002Busb0zlLVUr7H9KyEZfbbDqAQldmwOyBP5ZOJ3i8A=\u0022"},{"Name":"Last-Modified","Value":"Mon, 14 Apr 2025 12:31:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/progetto-AICA/Style.yv5i96ow2e.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Style.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yv5i96ow2e"},{"Name":"integrity","Value":"sha256-Tu\u002Busb0zlLVUr7H9KyEZfbbDqAQldmwOyBP5ZOJ3i8A="},{"Name":"label","Value":"_content/progetto-AICA/Style.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2041"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Tu\u002Busb0zlLVUr7H9KyEZfbbDqAQldmwOyBP5ZOJ3i8A=\u0022"},{"Name":"Last-Modified","Value":"Mon, 14 Apr 2025 12:31:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

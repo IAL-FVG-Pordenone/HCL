@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sndre\\Downloads\\AICA\\TelegramBot_Console\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C235BBBC-C71F-4699-A27D-C6765BAC0C93}|TelegramBot_Console\\TelegramBot_Console.csproj|c:\\users\\sndre\\downloads\\aica\\telegrambot_console\\telegrambot_console\\classi\\updatehandlerbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C235BBBC-C71F-4699-A27D-C6765BAC0C93}|TelegramBot_Console\\TelegramBot_Console.csproj|solutionrelative:telegrambot_console\\classi\\updatehandlerbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C235BBBC-C71F-4699-A27D-C6765BAC0C93}|TelegramBot_Console\\TelegramBot_Console.csproj|c:\\users\\sndre\\downloads\\aica\\telegrambot_console\\telegrambot_console\\main\\telegrambot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C235BBBC-C71F-4699-A27D-C6765BAC0C93}|TelegramBot_Console\\TelegramBot_Console.csproj|solutionrelative:telegrambot_console\\main\\telegrambot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C235BBBC-C71F-4699-A27D-C6765BAC0C93}|TelegramBot_Console\\TelegramBot_Console.csproj|c:\\users\\sndre\\downloads\\aica\\telegrambot_console\\telegrambot_console\\classi\\backendbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C235BBBC-C71F-4699-A27D-C6765BAC0C93}|TelegramBot_Console\\TelegramBot_Console.csproj|solutionrelative:telegrambot_console\\classi\\backendbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C235BBBC-C71F-4699-A27D-C6765BAC0C93}|TelegramBot_Console\\TelegramBot_Console.csproj|c:\\users\\sndre\\downloads\\aica\\telegrambot_console\\telegrambot_console\\classi\\databasebot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C235BBBC-C71F-4699-A27D-C6765BAC0C93}|TelegramBot_Console\\TelegramBot_Console.csproj|solutionrelative:telegrambot_console\\classi\\databasebot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_BALAKHTINA_DOCUMENTS_GITHUB_AICA_TELEGRAMBOT_CONSOLE_DATABASE_DOMOTICA.MDF/True/SqlTable/dbo.Dati.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C235BBBC-C71F-4699-A27D-C6765BAC0C93}|TelegramBot_Console\\TelegramBot_Console.csproj|c:\\users\\sndre\\downloads\\aica\\telegrambot_console\\telegrambot_console\\telegrambot_console.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C235BBBC-C71F-4699-A27D-C6765BAC0C93}|TelegramBot_Console\\TelegramBot_Console.csproj|solutionrelative:telegrambot_console\\telegrambot_console.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dbo.Dati.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_BALAKHTINA_DOCUMENTS_GITHUB_AICA_TELEGRAMBOT_CONSOLE_DATABASE_DOMOTICA.MDF/True/SqlTable/dbo.Dati.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_BALAKHTINA_DOCUMENTS_GITHUB_AICA_TELEGRAMBOT_CONSOLE_DATABASE_DOMOTICA.MDF/True/SqlTable/dbo.Dati.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-09T06:39:22.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TelegramBot_Console.csproj",
+              "DocumentMoniker": "C:\\Users\\sndre\\Downloads\\AICA\\TelegramBot_Console\\TelegramBot_Console\\TelegramBot_Console.csproj",
+              "RelativeDocumentMoniker": "TelegramBot_Console\\TelegramBot_Console.csproj",
+              "ToolTip": "C:\\Users\\sndre\\Downloads\\AICA\\TelegramBot_Console\\TelegramBot_Console\\TelegramBot_Console.csproj",
+              "RelativeToolTip": "TelegramBot_Console\\TelegramBot_Console.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-07T13:03:21.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateHandlerBot.cs",
+              "DocumentMoniker": "C:\\Users\\sndre\\Downloads\\AICA\\TelegramBot_Console\\TelegramBot_Console\\Classi\\UpdateHandlerBot.cs",
+              "RelativeDocumentMoniker": "TelegramBot_Console\\Classi\\UpdateHandlerBot.cs",
+              "ToolTip": "C:\\Users\\sndre\\Downloads\\AICA\\TelegramBot_Console\\TelegramBot_Console\\Classi\\UpdateHandlerBot.cs",
+              "RelativeToolTip": "TelegramBot_Console\\Classi\\UpdateHandlerBot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T12:35:55.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BackendBot.cs",
+              "DocumentMoniker": "C:\\Users\\sndre\\Downloads\\AICA\\TelegramBot_Console\\TelegramBot_Console\\Classi\\BackendBot.cs",
+              "RelativeDocumentMoniker": "TelegramBot_Console\\Classi\\BackendBot.cs",
+              "ToolTip": "C:\\Users\\sndre\\Downloads\\AICA\\TelegramBot_Console\\TelegramBot_Console\\Classi\\BackendBot.cs",
+              "RelativeToolTip": "TelegramBot_Console\\Classi\\BackendBot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T12:33:01.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DatabaseBot.cs",
+              "DocumentMoniker": "C:\\Users\\sndre\\Downloads\\AICA\\TelegramBot_Console\\TelegramBot_Console\\Classi\\DatabaseBot.cs",
+              "RelativeDocumentMoniker": "TelegramBot_Console\\Classi\\DatabaseBot.cs",
+              "ToolTip": "C:\\Users\\sndre\\Downloads\\AICA\\TelegramBot_Console\\TelegramBot_Console\\Classi\\DatabaseBot.cs",
+              "RelativeToolTip": "TelegramBot_Console\\Classi\\DatabaseBot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T12:30:10.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TelegramBot.cs",
+              "DocumentMoniker": "C:\\Users\\sndre\\Downloads\\AICA\\TelegramBot_Console\\TelegramBot_Console\\Main\\TelegramBot.cs",
+              "RelativeDocumentMoniker": "TelegramBot_Console\\Main\\TelegramBot.cs",
+              "ToolTip": "C:\\Users\\sndre\\Downloads\\AICA\\TelegramBot_Console\\TelegramBot_Console\\Main\\TelegramBot.cs",
+              "RelativeToolTip": "TelegramBot_Console\\Main\\TelegramBot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T08:43:54.915Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

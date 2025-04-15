@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Drive condivisi\\Didattica 2024-2025\\Classi\\3IOT\\HCL\\HCL-WebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{30B79888-A857-4ED6-8A33-7F15B3E3041E}|HCL.csproj|g:\\drive condivisi\\didattica 2024-2025\\classi\\3iot\\hcl\\hcl-webapp\\components\\classi\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B79888-A857-4ED6-8A33-7F15B3E3041E}|HCL.csproj|solutionrelative:components\\classi\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B79888-A857-4ED6-8A33-7F15B3E3041E}|HCL.csproj|g:\\drive condivisi\\didattica 2024-2025\\classi\\3iot\\hcl\\hcl-webapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30B79888-A857-4ED6-8A33-7F15B3E3041E}|HCL.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B79888-A857-4ED6-8A33-7F15B3E3041E}|HCL.csproj|g:\\drive condivisi\\didattica 2024-2025\\classi\\3iot\\hcl\\hcl-webapp\\services\\plcbackend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B79888-A857-4ED6-8A33-7F15B3E3041E}|HCL.csproj|solutionrelative:services\\plcbackend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B79888-A857-4ED6-8A33-7F15B3E3041E}|HCL.csproj|g:\\drive condivisi\\didattica 2024-2025\\classi\\3iot\\hcl\\hcl-webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B79888-A857-4ED6-8A33-7F15B3E3041E}|HCL.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B79888-A857-4ED6-8A33-7F15B3E3041E}|HCL.csproj|g:\\drive condivisi\\didattica 2024-2025\\classi\\3iot\\hcl\\hcl-webapp\\components\\classi\\classi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B79888-A857-4ED6-8A33-7F15B3E3041E}|HCL.csproj|solutionrelative:components\\classi\\classi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B79888-A857-4ED6-8A33-7F15B3E3041E}|HCL.csproj|g:\\drive condivisi\\didattica 2024-2025\\classi\\3iot\\hcl\\hcl-webapp\\hcl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{30B79888-A857-4ED6-8A33-7F15B3E3041E}|HCL.csproj|solutionrelative:hcl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HCL",
+              "DocumentMoniker": "G:\\Drive condivisi\\Didattica 2024-2025\\Classi\\3IOT\\HCL\\HCL-WebApp\\HCL.csproj",
+              "RelativeDocumentMoniker": "HCL.csproj",
+              "ToolTip": "G:\\Drive condivisi\\Didattica 2024-2025\\Classi\\3IOT\\HCL\\HCL-WebApp\\HCL.csproj",
+              "RelativeToolTip": "HCL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-15T15:55:24.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Classi.cs",
+              "DocumentMoniker": "G:\\Drive condivisi\\Didattica 2024-2025\\Classi\\3IOT\\HCL\\HCL-WebApp\\Components\\Classi\\Classi.cs",
+              "RelativeDocumentMoniker": "Components\\Classi\\Classi.cs",
+              "ToolTip": "G:\\Drive condivisi\\Didattica 2024-2025\\Classi\\3IOT\\HCL\\HCL-WebApp\\Components\\Classi\\Classi.cs",
+              "RelativeToolTip": "Components\\Classi\\Classi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T14:06:26.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Database.cs",
+              "DocumentMoniker": "G:\\Drive condivisi\\Didattica 2024-2025\\Classi\\3IOT\\HCL\\HCL-WebApp\\Components\\Classi\\Database.cs",
+              "RelativeDocumentMoniker": "Components\\Classi\\Database.cs",
+              "ToolTip": "G:\\Drive condivisi\\Didattica 2024-2025\\Classi\\3IOT\\HCL\\HCL-WebApp\\Components\\Classi\\Database.cs",
+              "RelativeToolTip": "Components\\Classi\\Database.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAowG4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T14:05:49.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\Drive condivisi\\Didattica 2024-2025\\Classi\\3IOT\\HCL\\HCL-WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "G:\\Drive condivisi\\Didattica 2024-2025\\Classi\\3IOT\\HCL\\HCL-WebApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T13:25:02.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PLCBackend.cs",
+              "DocumentMoniker": "G:\\Drive condivisi\\Didattica 2024-2025\\Classi\\3IOT\\HCL\\HCL-WebApp\\Services\\PLCBackend.cs",
+              "RelativeDocumentMoniker": "Services\\PLCBackend.cs",
+              "ToolTip": "G:\\Drive condivisi\\Didattica 2024-2025\\Classi\\3IOT\\HCL\\HCL-WebApp\\Services\\PLCBackend.cs",
+              "RelativeToolTip": "Services\\PLCBackend.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T13:10:32.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.razor",
+              "DocumentMoniker": "G:\\Drive condivisi\\Didattica 2024-2025\\Classi\\3IOT\\HCL\\HCL-WebApp\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
+              "ToolTip": "G:\\Drive condivisi\\Didattica 2024-2025\\Classi\\3IOT\\HCL\\HCL-WebApp\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAiwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T13:09:24.232Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

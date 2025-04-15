@@ -1,0 +1,434 @@
+{
+  "Version": 1,
+  "Hash": "WxhlLJKC3B08vdI5uKmQXgZKwVMCoMuss/5n4F+ozCs=",
+  "Source": "progetto-AICA",
+  "BasePath": "_content/progetto-AICA",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "progetto-AICA\\wwwroot",
+      "Source": "progetto-AICA",
+      "ContentRoot": "C:\\Users\\derenzim\\Documents\\GitHub\\AICA\\progetto-AICA\\wwwroot\\",
+      "BasePath": "_content/progetto-AICA",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\derenzim\\Documents\\GitHub\\AICA\\progetto-AICA\\obj\\Debug\\net8.0\\scopedcss\\bundle\\progetto-AICA.styles.css",
+      "SourceId": "progetto-AICA",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\derenzim\\Documents\\GitHub\\AICA\\progetto-AICA\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/progetto-AICA",
+      "RelativePath": "progetto-AICA#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "dy3efmnhlf",
+      "Integrity": "hUKyQW+g2DQckXocAi8BQZ0bzJDWDQc5SE4YwejqX3s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\derenzim\\Documents\\GitHub\\AICA\\progetto-AICA\\obj\\Debug\\net8.0\\scopedcss\\bundle\\progetto-AICA.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\derenzim\\Documents\\GitHub\\AICA\\progetto-AICA\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\progetto-AICA.bundle.scp.css",
+      "SourceId": "progetto-AICA",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\derenzim\\Documents\\GitHub\\AICA\\progetto-AICA\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/progetto-AICA",
+      "RelativePath": "progetto-AICA#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "dy3efmnhlf",
+      "Integrity": "hUKyQW+g2DQckXocAi8BQZ0bzJDWDQc5SE4YwejqX3s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\derenzim\\Documents\\GitHub\\AICA\\progetto-AICA\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\progetto-AICA.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\derenzim\\Documents\\GitHub\\AICA\\progetto-AICA\\wwwroot\\app.css",
+      "SourceId": "progetto-AICA",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\derenzim\\Documents\\GitHub\\AICA\\progetto-AICA\\wwwroot\\",
+      "BasePath": "_content/progetto-AICA",
+      "RelativePath": "app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sw2b1e5w8n",
+      "Integrity": "hDMiMML3RkLNSDdzRDDCbl5BSgoDV5T2+m4JVhdgmug=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.css"
+    },
+    {
+      "Identity": "C:\\Users\\derenzim\\Documents\\GitHub\\AICA\\progetto-AICA\\wwwroot\\Style.css",
+      "SourceId": "progetto-AICA",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\derenzim\\Documents\\GitHub\\AICA\\progetto-AICA\\wwwroot\\",
+      "BasePath": "_content/progetto-AICA",
+      "RelativePath": "Style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yv5i96ow2e",
+      "Integrity": "Tu+usb0zlLVUr7H9KyEZfbbDqAQldmwOyBP5ZOJ3i8A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Style.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Users\\derenzim\\Documents\\GitHub\\AICA\\progetto-AICA\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2125"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hDMiMML3RkLNSDdzRDDCbl5BSgoDV5T2+m4JVhdgmug=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 11:51:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hDMiMML3RkLNSDdzRDDCbl5BSgoDV5T2+m4JVhdgmug="
+        }
+      ]
+    },
+    {
+      "Route": "app.sw2b1e5w8n.css",
+      "AssetFile": "C:\\Users\\derenzim\\Documents\\GitHub\\AICA\\progetto-AICA\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2125"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hDMiMML3RkLNSDdzRDDCbl5BSgoDV5T2+m4JVhdgmug=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 11:51:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sw2b1e5w8n"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hDMiMML3RkLNSDdzRDDCbl5BSgoDV5T2+m4JVhdgmug="
+        }
+      ]
+    },
+    {
+      "Route": "progetto-AICA.bundle.scp.css",
+      "AssetFile": "C:\\Users\\derenzim\\Documents\\GitHub\\AICA\\progetto-AICA\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\progetto-AICA.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "504"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hUKyQW+g2DQckXocAi8BQZ0bzJDWDQc5SE4YwejqX3s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 11:52:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hUKyQW+g2DQckXocAi8BQZ0bzJDWDQc5SE4YwejqX3s="
+        }
+      ]
+    },
+    {
+      "Route": "progetto-AICA.dy3efmnhlf.bundle.scp.css",
+      "AssetFile": "C:\\Users\\derenzim\\Documents\\GitHub\\AICA\\progetto-AICA\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\progetto-AICA.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "504"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hUKyQW+g2DQckXocAi8BQZ0bzJDWDQc5SE4YwejqX3s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 11:52:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dy3efmnhlf"
+        },
+        {
+          "Name": "label",
+          "Value": "progetto-AICA.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hUKyQW+g2DQckXocAi8BQZ0bzJDWDQc5SE4YwejqX3s="
+        }
+      ]
+    },
+    {
+      "Route": "progetto-AICA.dy3efmnhlf.styles.css",
+      "AssetFile": "C:\\Users\\derenzim\\Documents\\GitHub\\AICA\\progetto-AICA\\obj\\Debug\\net8.0\\scopedcss\\bundle\\progetto-AICA.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "504"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hUKyQW+g2DQckXocAi8BQZ0bzJDWDQc5SE4YwejqX3s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 11:52:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dy3efmnhlf"
+        },
+        {
+          "Name": "label",
+          "Value": "progetto-AICA.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hUKyQW+g2DQckXocAi8BQZ0bzJDWDQc5SE4YwejqX3s="
+        }
+      ]
+    },
+    {
+      "Route": "progetto-AICA.styles.css",
+      "AssetFile": "C:\\Users\\derenzim\\Documents\\GitHub\\AICA\\progetto-AICA\\obj\\Debug\\net8.0\\scopedcss\\bundle\\progetto-AICA.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "504"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hUKyQW+g2DQckXocAi8BQZ0bzJDWDQc5SE4YwejqX3s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 11:52:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hUKyQW+g2DQckXocAi8BQZ0bzJDWDQc5SE4YwejqX3s="
+        }
+      ]
+    },
+    {
+      "Route": "Style.css",
+      "AssetFile": "C:\\Users\\derenzim\\Documents\\GitHub\\AICA\\progetto-AICA\\wwwroot\\Style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2041"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tu+usb0zlLVUr7H9KyEZfbbDqAQldmwOyBP5ZOJ3i8A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 12:31:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tu+usb0zlLVUr7H9KyEZfbbDqAQldmwOyBP5ZOJ3i8A="
+        }
+      ]
+    },
+    {
+      "Route": "Style.yv5i96ow2e.css",
+      "AssetFile": "C:\\Users\\derenzim\\Documents\\GitHub\\AICA\\progetto-AICA\\wwwroot\\Style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2041"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tu+usb0zlLVUr7H9KyEZfbbDqAQldmwOyBP5ZOJ3i8A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 12:31:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yv5i96ow2e"
+        },
+        {
+          "Name": "label",
+          "Value": "Style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tu+usb0zlLVUr7H9KyEZfbbDqAQldmwOyBP5ZOJ3i8A="
+        }
+      ]
+    }
+  ]
+}

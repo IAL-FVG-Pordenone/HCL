@@ -1,0 +1,3 @@
+ANDRII BALAKHTIN: 2025-04-14 in 1:31 AM
+
+Il compito è leggere e modificare in modo asincrono i valori nella tabella "Dati" del database. Ad esempio, è possibile modificare il valore logico di un LED da TRUE a FALSE.
