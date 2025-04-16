@@ -1,0 +1,37 @@
+AICA
+
+📦 Download del Progetto
+
+- Per ottenere una copia locale del progetto:
+
+- Vai alla pagina del repository: https://github.com/IAL-FVG-Pordenone/HCL
+
+- Clicca sul pulsante verde "Code".
+
+- Seleziona "Download ZIP" per scaricare l'intero progetto in formato .zip.
+
+📂 Estrazione dei File
+
+- Dopo aver scaricato il file .zip:
+
+- Naviga nella cartella dove è stato salvato il file.
+
+- Estrai il contenuto del file .zip utilizzando un gestore di archivi (es. WinRAR, 7-Zip, o l'estrattore integrato del sistema operativo).
+
+- Apri la cartella estratta e accedi al file "HCL-WebApp".
+
+- Apri il file "HCL.sln" (Devi avere visual studio 2022 installato) ❗
+
+🧰 Utilizzo del Codice
+
+- Una volta che si è aperto il file premi il tasto F5 sulla tastiera
+
+apparirà una schermata: 
+	
+	Considerate attendibile il certificato SSL IIS Express. Viene usato da 
+	Ricaricamento rapido pe creare una connessione sicura al browser.
+	Si vuole considerare attendibile il certificato SSL IIS Express?
+
+Premere su si e proseguire per installare il certificato.
+
+- l'app si avvierà su localhost e sarà possibile interagirci
