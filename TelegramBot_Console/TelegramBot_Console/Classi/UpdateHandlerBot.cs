@@ -206,10 +206,9 @@ namespace TelegramBot_Console.Classi
             catch (Exception ex)
             {
                 Console.WriteLine($"*Error* editing message: {ex.Message}");
-                await botClient.SendMessage(chatId: chatId, text: $"✅ Ricevuto: {callbackData}", cancellationToken: cancellationToken);
+                await botClient.SendMessage(chatId: chatId, text: $"✅ Ricevuto da polling: {callbackData}", cancellationToken: cancellationToken);
             }
         }
-
 
         #region Bot Command Functions
 
@@ -280,7 +279,7 @@ namespace TelegramBot_Console.Classi
             });
             await botClient.SendMessage(
                 chatId: chatId,
-                text: "👋 Benvenuto!",
+                text: "👋 Ciao!",
                 replyMarkup: keyboard,
                 cancellationToken: cancellationToken
             );
