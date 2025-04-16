@@ -13,7 +13,7 @@ namespace TelegramBot_Console.Main
 
         public static async Task Main()
         {
-
+            // Initialize the bot client with your token -> (replace with your actual token via link - https://web.telegram.org/k/#@BotFather)
             var botClient = new TelegramBotClient("7907367040:AAGO0DMuJR4PKVSufBV1X0uJzPYa6YiLyGM");
             BackendBot.TelegramBot = botClient;
 

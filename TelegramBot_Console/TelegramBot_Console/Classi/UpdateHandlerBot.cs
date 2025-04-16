@@ -5,7 +5,7 @@ using Telegram.Bot.Types.Enums;
 using Telegram.Bot.Types.ReplyMarkups;
 using Telegram.Bot.Types;
 using Telegram.Bot;
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 
 namespace TelegramBot_Console.Classi
 {
@@ -29,7 +29,7 @@ namespace TelegramBot_Console.Classi
                         using (SqlCommand command = new SqlCommand(query, connection))
                         {
                             command.Parameters.AddWithValue("@ChatId", chatId.ToString());
-                            object result = await command.ExecuteScalarAsync();
+                            object? result = await command.ExecuteScalarAsync();
 
                             if (result != null && result != DBNull.Value && !(bool)result)
                             {
@@ -334,7 +334,7 @@ namespace TelegramBot_Console.Classi
                 using (SqlCommand selectUserIdCommand = new SqlCommand(selectUserIdQuery, connection))
                 {
                     selectUserIdCommand.Parameters.AddWithValue("@ChatId", chatId.ToString());
-                    object result = await selectUserIdCommand.ExecuteScalarAsync();
+                    object? result = await selectUserIdCommand.ExecuteScalarAsync();
                     if (result != null && result != DBNull.Value)
                     {
                         utenteId = (int)result;
@@ -410,7 +410,7 @@ namespace TelegramBot_Console.Classi
                     using (SqlCommand selectUserIdCommand = new SqlCommand(selectUserIdQuery, connection))
                     {
                         selectUserIdCommand.Parameters.AddWithValue("@ChatId", chatId.ToString());
-                        object result = await selectUserIdCommand.ExecuteScalarAsync();
+                        object? result = await selectUserIdCommand.ExecuteScalarAsync();
                         if (result != null && result != DBNull.Value)
                         {
                             utenteId = (int)result;

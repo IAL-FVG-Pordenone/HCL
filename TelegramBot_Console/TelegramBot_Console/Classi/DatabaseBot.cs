@@ -1,6 +1,6 @@
-﻿// ANDRII BALAKHTIN: Ultima modifica: 2025-04-13 in 11:45 PM
+﻿// ANDRII BALAKHTIN: Ultima modifica: 2025-04-16 in 8:46 PM
 
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 
 namespace TelegramBot_Console.Classi
 {
@@ -9,7 +9,7 @@ namespace TelegramBot_Console.Classi
         public static Dictionary<long, Dictionary<string, bool>> UserLuci = new Dictionary<long, Dictionary<string, bool>>();
         public static Dictionary<long, CancellationTokenSource> UserCancellationTokenSources = new Dictionary<long, CancellationTokenSource>();
 
-        public static readonly string _connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\sndre\\Downloads\\AICA\\TelegramBot_Console\\DataBase\\Domotica.mdf;Integrated Security=True;Connect Timeout=30";
+        public static readonly string _connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\balakhtina\\Documents\\GitHub\\HCL\\DataBasePublic\\DB\\Domotica.mdf;Integrated Security=True;Connect Timeout=30";
 
         public static Dictionary<string, bool> GetOrCreateUserLuci(long chatId)
         {
@@ -42,7 +42,7 @@ namespace TelegramBot_Console.Classi
                     using (SqlCommand selectUserIdCommand = new SqlCommand(selectUserIdQuery, connection))
                     {
                         selectUserIdCommand.Parameters.AddWithValue("@ChatId", chatId.ToString());
-                        object result = await selectUserIdCommand.ExecuteScalarAsync();
+                        object? result = await selectUserIdCommand.ExecuteScalarAsync();
                         if (result != null && result != DBNull.Value)
                         {
                             utenteId = (int)result;
@@ -57,7 +57,8 @@ namespace TelegramBot_Console.Classi
                         using (SqlCommand checkIfExistsCommand = new SqlCommand(checkIfExistsQuery, connection))
                         {
                             checkIfExistsCommand.Parameters.AddWithValue("@UtenteId", utenteId.Value);
-                            recordCount = (int)await checkIfExistsCommand.ExecuteScalarAsync();
+                            var result = await checkIfExistsCommand.ExecuteScalarAsync();
+                            recordCount = result != DBNull.Value ? Convert.ToInt32(result) : 0;
                         }
 
                         string query;
