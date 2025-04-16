@@ -1,32 +1,41 @@
-COSA E' IL BACKEND
-è un file scritto in C# che serve per far parlare l'applicazione web con un PLC Siemens, cioè un dispositivo che controlla macchine o impianti.
-In pratica, funziona come una connessione tra l'app e il PLC, così l'app può leggere o inviare dati al PLC tramite una connessione.
+📌 COSA È IL BACKEND
+🖥️ È un file scritto in C# che serve per far parlare l'applicazione web con un PLC Siemens, cioè un dispositivo che controlla macchine o impianti.
+🔗 In pratica, funziona come una connessione tra l'app e il PLC, così l'app può leggere o inviare dati al PLC tramite una connessione.
 
-COSA FA IL BACKEND
-1. Si collega al PLC
-Usa un indirizzo IP per connettersi al PLC.
- 
-2. Legge i dati dal PLC
-Una volta connesso, il backend può leggere dati salvati nella memoria del PLC, come:
-Stato dei pulsanti
-Uscite digitali (esempio luci accese/spenti)
-Variabili salvate internamente
+⚙️ COSA FA IL BACKEND
+1️Si collega al PLC
+📡 Usa un indirizzo IP per connettersi al PLC.
 
-3. Scrive dati nel PLC
-Può anche inviare dati al PLC, per esempio:
-Accendere o spegnere un'uscita
-Cambiare un parametro o una variabile
+2️Legge i dati dal PLC
+📥 Una volta connesso, il backend può leggere dati salvati nella memoria del PLC, come:
 
-COME E' FATTO IL CODICE
+🔘 Stato dei pulsanti
+
+💡 Uscite digitali (esempio: luci accese/spente)
+
+📊 Variabili salvate internamente
+
+3️⃣ Scrive dati nel PLC
+📤 Può anche inviare dati al PLC, per esempio:
+
+🔛 Accendere o spegnere un'uscita
+
+🛠️ Cambiare un parametro o una variabile
+
+🧩 COME È FATTO IL CODICE
 Il file è una classe (PLCBackend) che contiene metodi per:
-Connettersi al PLC
-Leggere dati
-Scrivere dati
-Gestire eventuali errori
 
-COSA SERVE PER FARE FUNZIONARE QUESTO CODICE
+🔗 Connettersi al PLC
+
+📖 Leggere dati
+
+✍️ Scrivere dati
+
+❌ Gestire eventuali errori
+
+🛠️ COSA SERVE PER FARE FUNZIONARE QUESTO CODICE
 Per farlo, sfrutta una libreria chiamata S7.Net, creata apposta per comunicare con i PLC Siemens in C#.
 
-DOVE TROVARE IL CODICE
-Puoi vedere tutto il codice nel file PLCBackend.cs a questo link:
-https://github.com/IAL-FVG-Pordenone/HCL/blob/main/HCL-WebApp/Services/PLCBackend.cs
+🔎 DOVE TROVARE IL CODICE
+📂 Puoi vedere tutto il codice nel file PLCBackend.cs a questo link:
+👉 https://github.com/IAL-FVG-Pordenone/HCL/blob/main/HCL-WebApp/Services/PLCBackend.cs
