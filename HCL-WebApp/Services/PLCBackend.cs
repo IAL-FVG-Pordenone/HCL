@@ -6,10 +6,10 @@ namespace progetto_AICA.Services
     public class PLCBackend
     {
         private static Plc _plc;
-        public static int LedCucina = 0;
-        public static int LedBagno = 0;
-        public static int LedSalotto = 0;
-        public static int LedCamera = 0;
+        public static bool LedCucina = false;
+        public static bool LedBagno = false;
+        public static bool LedSalotto = false;
+        public static bool LedCamera = false;
         public PLCBackend(CpuType cpu, string ip, short rack, short slot)
         {
             _plc = new Plc(cpu, ip, rack, slot);
@@ -64,59 +64,19 @@ namespace progetto_AICA.Services
                 Console.WriteLine($"Errore durante la lettura dei dati: {ex.Message}");
             }
         }
-        public static void dataWrite()
-        {
-            Console.WriteLine("Inserisci il numero della lampadina: (1, 2, 3, 4)");
-            try
-            {
-                while (true)
-                {
-                    string input = Console.ReadLine();
-                    switch (input)
-                    {
-                        case "1":
-                            _plc.Write("Q0.0", true);
-                            Console.WriteLine("Lampadina Q0.0 Accesa");
-                            break;
-                        case "2":
-                            _plc.Write("Q0.0", false);
-                            Console.WriteLine("Lampadina Q.0.0 SPENTA");
-                            break;
-                        case "3":
-
-                            break;
-                        default:
-                            Console.WriteLine("Comando non riconosciuto");
-                            break;
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Errore:{ex.Message}");
-            }
-            finally
-            {
-                /*if (_plc.IsConnected)
-{
-    _plc.Close();
-    Console.WriteLine("Connessione al PLC chiusa.");
-}*/
-            }
-        }
         public static void lampadaCucina()
         {
             try
             {
-                if (LedCucina == 0)
+                if (LedCucina == false)
                 {
                     _plc.Write("DB1.DBX0.1", true);
                     Console.WriteLine("Lampadina Q0.1 Accesa");
-                    LedCucina = 1;
+                    LedCucina = true;
                 }
                 else
                 {
-                    LedCucina = 0;
+                    LedCucina = false;
                     _plc.Write("DB1.DBX0.1", false);
                     Console.WriteLine("Lampadina Q0.1 Spenta");
                 }
@@ -130,15 +90,15 @@ namespace progetto_AICA.Services
         {
             try
             {
-                if (LedSalotto == 0)
+                if (LedSalotto == false)
                 {
-                    LedSalotto = 1;
+                    LedSalotto = true;
                     _plc.Write("DB1.DBX0.5", true);
                     Console.WriteLine("Lampadina Q0.5 Accesa");
                 }
                 else
                 {
-                    LedSalotto = 0;
+                    LedSalotto = false;
                     _plc.Write("DB1.DBX0.5", false);
                     Console.WriteLine("Lampadina Q0.5 Spento");
                 }
@@ -152,62 +112,44 @@ namespace progetto_AICA.Services
         {
             try
             {
-                if (LedBagno == 0)
+                if (LedBagno == false)
                 {
                     _plc.Write("DB1.DBX0.2", true);
                     Console.WriteLine("Lampadina Q0.2 Accesa");
-                    LedBagno = 1;
+                    LedBagno = true;
                 }
                 else
                 {
-                    LedBagno = 0;
+                    LedBagno = false;
                     _plc.Write("DB1.DBX0.2", false);
                     Console.WriteLine("Lampadina Q0.2 Spento");
                 }
             }
-            //malcom
             catch (Exception ex)
             {
                 Console.WriteLine($"Errore:{ex.Message}");
-            }
-            finally
-            {
-                /*if (_plc.IsConnected)
- {
-     _plc.Close();
-     Console.WriteLine("Connessione al PLC chiusa.");
- }*/
             }
         }
         public static void lampadaCamera()
         {
             try
             {
-                if (LedCamera == 0)
+                if (LedCamera == false)
                 {
-                    LedCamera = 1;
+                    LedCamera = true;
                     _plc.Write("DB1.DBX0.6", true);
                     Console.WriteLine("Lampadina Q0.6 Accesa");
                 }
                 else
                 {
-                    LedCamera = 0;
+                    LedCamera = false;
                     _plc.Write("DB1.DBX0.6", false);
                     Console.WriteLine("Lampadina Q0.6 Spento");
                 }
             }
-            //malcom
             catch (Exception ex)
             {
                 Console.WriteLine($"Errore:{ex.Message}");
-            }
-            finally
-            {
-                /*if (_plc.IsConnected)
- {
-     _plc.Close();
-     Console.WriteLine("Connessione al PLC chiusa.");
- }*/
             }
         }
     }
