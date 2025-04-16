@@ -1,4 +1,4 @@
-﻿// ANDRII BALAKHTIN: Ultima modifica: 2025-04-07 in 16:32 PM
+﻿// ANDRII BALAKHTIN: Ultima modifica: 2025-04-16 in 11:01 PM
 
 using Telegram.Bot;
 using Telegram.Bot.Polling;
@@ -14,7 +14,7 @@ namespace TelegramBot_Console.Main
         public static async Task Main()
         {
             // Initialize the bot client with your token -> (replace with your actual token via link - https://web.telegram.org/k/#@BotFather)
-            var botClient = new TelegramBotClient("7907367040:AAGO0DMuJR4PKVSufBV1X0uJzPYa6YiLyGM");
+            var botClient = new TelegramBotClient("123456789:AAABBBGGGDDDFFFGGGHHHJJJJKKKK");
             BackendBot.TelegramBot = botClient;
 
             using var cts = new CancellationTokenSource();
