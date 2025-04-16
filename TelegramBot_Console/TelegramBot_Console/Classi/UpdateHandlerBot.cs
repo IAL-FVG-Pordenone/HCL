@@ -19,7 +19,7 @@ namespace TelegramBot_Console.Classi
             {
                 long chatId = message.Chat.Id;
 
-                if (!text.StartsWith("/start"))
+                if (!text.StartsWith("/start") && !text.StartsWith("/open_menu"))
                 {
                     using (SqlConnection connection = new SqlConnection(DatabaseBot._connectionString))
                     {
@@ -82,6 +82,7 @@ namespace TelegramBot_Console.Classi
 
                 var action = messageText.Split(' ')[0] switch
                 {
+                    "/open_menu"         => SendStartCommand(botClient, message, cancellationToken),
                     "/start"             => SendStartCommand(botClient, message, cancellationToken),
                     "/stop"              => StopUser(botClient,         message, cancellationToken),
                     "/stato"             => SendStato(botClient,        message, cancellationToken),
@@ -449,7 +450,8 @@ namespace TelegramBot_Console.Classi
 
         private static async Task SendHelp(ITelegramBotClient botClient, Message message, CancellationToken cancellationToken)
         {
-            string helpMessage = "/start - Avvia il bot e mostra le opzioni disponibili\n" +
+            string helpMessage = "/open_menu - Avvia il bot e mostra menu principale\n" +
+                                 "/start - Avvia il bot e mostra le opzioni disponibili\n" +
                                  "/stop - Ferma il bot per questo utente\n" +
                                  "/stato - Mostra lo stato attuale delle luci e dell'allarme\n" +
                                  "/accendi_cucina - Accende la luce in cucina\n" +
