@@ -450,7 +450,7 @@ namespace TelegramBot_Console.Classi
 
         private static async Task SendHelp(ITelegramBotClient botClient, Message message, CancellationToken cancellationToken)
         {
-            string helpMessage = "/open_menu - Avvia il bot e mostra menu principale\n" +
+            string helpMessage = "/open_menu - Avvia il bot e da possibilita vedere il menu\n" +
                                  "/start - Avvia il bot e mostra le opzioni disponibili\n" +
                                  "/stop - Ferma il bot per questo utente\n" +
                                  "/stato - Mostra lo stato attuale delle luci e dell'allarme\n" +
