@@ -1,4 +1,4 @@
-﻿// ANDRII BALAKHTIN: Ultima modifica: 2025-04-13 in 1:21 AM
+﻿// ANDRII BALAKHTIN: Ultima modifica: 2025-04-16 in 9:03 PM
 
 using Telegram.Bot.Polling;
 using Telegram.Bot.Types.Enums;
@@ -95,7 +95,7 @@ namespace TelegramBot_Console.Classi
                     "/spegni_camera"     => SpegniLuce(botClient,       message, "Camera", cancellationToken),
                     "/attiva_allarme"    => AttivaAllarme(botClient,    message, cancellationToken),
                     "/disattiva_allarme" => DisattivaAllarme(botClient, message, cancellationToken),
-                    "/help"              => SendHelp(botClient, message, cancellationToken),
+                    "/help"              => SendHelp(botClient,         message, cancellationToken),
                     _ => SendUnknownCommand(botClient, message, cancellationToken)
                 };
 
@@ -376,12 +376,14 @@ namespace TelegramBot_Console.Classi
         {
             await BackendBot.AggiornaStatoLuce(message.Chat.Id, luce, true);
             await DatabaseBot.UpdateDatabaseState(message.Chat.Id);
+            await botClient.SendMessage(chatId: message.Chat.Id, text: $"💡 Luce {luce} accesa.", cancellationToken: cancellationToken);
         }
 
         private static async Task SpegniLuce(ITelegramBotClient botClient, Message message, string luce, CancellationToken cancellationToken)
         {
             await BackendBot.AggiornaStatoLuce(message.Chat.Id, luce, false);
             await DatabaseBot.UpdateDatabaseState(message.Chat.Id);
+            await botClient.SendMessage(chatId: message.Chat.Id, text: $"🌑 Luce {luce} spenta.", cancellationToken: cancellationToken);
         }
 
         private static async Task AttivaAllarme(ITelegramBotClient botClient, Message message, CancellationToken cancellationToken)
@@ -389,6 +391,7 @@ namespace TelegramBot_Console.Classi
             long chatId = message.Chat.Id;
             await BackendBot.AggiornaStatoAllarme(chatId, true);
             await UpdateDatabaseAlarmState(chatId, true);
+            await botClient.SendMessage(chatId: message.Chat.Id, text: "🚨 Allarme attivato.", cancellationToken: cancellationToken);
         }
 
         private static async Task DisattivaAllarme(ITelegramBotClient botClient, Message message, CancellationToken cancellationToken)
@@ -396,6 +399,7 @@ namespace TelegramBot_Console.Classi
             long chatId = message.Chat.Id;
             await BackendBot.AggiornaStatoAllarme(chatId, false); 
             await UpdateDatabaseAlarmState(chatId, false);
+            await botClient.SendMessage(chatId: message.Chat.Id, text: "💤 Allarme disattivato.", cancellationToken: cancellationToken);
         }
 
         private static async Task UpdateDatabaseAlarmState(long chatId, bool attivo)

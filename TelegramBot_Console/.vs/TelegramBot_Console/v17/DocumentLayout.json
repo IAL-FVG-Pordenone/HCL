@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\balakhtina\\Documents\\GitHub\\HCL\\TelegramBot_Console\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C235BBBC-C71F-4699-A27D-C6765BAC0C93}|TelegramBot_Console\\TelegramBot_Console.csproj|c:\\users\\balakhtina\\documents\\github\\hcl\\telegrambot_console\\telegrambot_console\\classi\\backendbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C235BBBC-C71F-4699-A27D-C6765BAC0C93}|TelegramBot_Console\\TelegramBot_Console.csproj|solutionrelative:telegrambot_console\\classi\\backendbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C235BBBC-C71F-4699-A27D-C6765BAC0C93}|TelegramBot_Console\\TelegramBot_Console.csproj|c:\\users\\balakhtina\\documents\\github\\hcl\\telegrambot_console\\telegrambot_console\\classi\\databasebot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C235BBBC-C71F-4699-A27D-C6765BAC0C93}|TelegramBot_Console\\TelegramBot_Console.csproj|solutionrelative:telegrambot_console\\classi\\databasebot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C235BBBC-C71F-4699-A27D-C6765BAC0C93}|TelegramBot_Console\\TelegramBot_Console.csproj|c:\\users\\balakhtina\\documents\\github\\hcl\\telegrambot_console\\telegrambot_console\\classi\\updatehandlerbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C235BBBC-C71F-4699-A27D-C6765BAC0C93}|TelegramBot_Console\\TelegramBot_Console.csproj|solutionrelative:telegrambot_console\\classi\\updatehandlerbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C235BBBC-C71F-4699-A27D-C6765BAC0C93}|TelegramBot_Console\\TelegramBot_Console.csproj|c:\\users\\balakhtina\\documents\\github\\hcl\\telegrambot_console\\telegrambot_console\\classi\\databasebot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C235BBBC-C71F-4699-A27D-C6765BAC0C93}|TelegramBot_Console\\TelegramBot_Console.csproj|solutionrelative:telegrambot_console\\classi\\databasebot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C235BBBC-C71F-4699-A27D-C6765BAC0C93}|TelegramBot_Console\\TelegramBot_Console.csproj|c:\\users\\balakhtina\\documents\\github\\hcl\\telegrambot_console\\telegrambot_console\\main\\telegrambot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C235BBBC-C71F-4699-A27D-C6765BAC0C93}|TelegramBot_Console\\TelegramBot_Console.csproj|solutionrelative:telegrambot_console\\main\\telegrambot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C235BBBC-C71F-4699-A27D-C6765BAC0C93}|TelegramBot_Console\\TelegramBot_Console.csproj|c:\\users\\balakhtina\\documents\\github\\hcl\\telegrambot_console\\telegrambot_console\\classi\\backendbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C235BBBC-C71F-4699-A27D-C6765BAC0C93}|TelegramBot_Console\\TelegramBot_Console.csproj|solutionrelative:telegrambot_console\\classi\\backendbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -36,14 +36,14 @@
               "RelativeDocumentMoniker": "TelegramBot_Console\\Classi\\UpdateHandlerBot.cs",
               "ToolTip": "C:\\Users\\balakhtina\\Documents\\GitHub\\HCL\\TelegramBot_Console\\TelegramBot_Console\\Classi\\UpdateHandlerBot.cs",
               "RelativeToolTip": "TelegramBot_Console\\Classi\\UpdateHandlerBot.cs",
-              "ViewState": "AgIAAAQBAAAAAAAAAAAuwFABAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T12:35:55.237Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "BackendBot.cs",
               "DocumentMoniker": "C:\\Users\\balakhtina\\Documents\\GitHub\\HCL\\TelegramBot_Console\\TelegramBot_Console\\Classi\\BackendBot.cs",
               "RelativeDocumentMoniker": "TelegramBot_Console\\Classi\\BackendBot.cs",
@@ -56,20 +56,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "DatabaseBot.cs",
               "DocumentMoniker": "C:\\Users\\balakhtina\\Documents\\GitHub\\HCL\\TelegramBot_Console\\TelegramBot_Console\\Classi\\DatabaseBot.cs",
               "RelativeDocumentMoniker": "TelegramBot_Console\\Classi\\DatabaseBot.cs",
               "ToolTip": "C:\\Users\\balakhtina\\Documents\\GitHub\\HCL\\TelegramBot_Console\\TelegramBot_Console\\Classi\\DatabaseBot.cs",
               "RelativeToolTip": "TelegramBot_Console\\Classi\\DatabaseBot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAADrAAAAAAAAAA==",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAcwAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T12:30:10.149Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "TelegramBot.cs",
               "DocumentMoniker": "C:\\Users\\balakhtina\\Documents\\GitHub\\HCL\\TelegramBot_Console\\TelegramBot_Console\\Main\\TelegramBot.cs",
               "RelativeDocumentMoniker": "TelegramBot_Console\\Main\\TelegramBot.cs",
